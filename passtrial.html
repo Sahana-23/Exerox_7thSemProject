@@ -1,0 +1,31 @@
+<html>
+<head>
+</head>
+<body>
+<div class="td">
+    <input type="password" id="txtNewPassword" />
+</div>
+<div class="td">
+    <input type="password" id="txtConfirmPassword" onChange="checkPasswordMatch();" />
+</div>
+    <div class="registrationFormAlert" id="divCheckPasswordMatch">
+</div>
+	 
+	 <script type="text/javascript">
+function checkPasswordMatch() {
+    var password = $("#txtNewPassword").val();
+    var confirmPassword = $("#txtConfirmPassword").val();
+
+    if (password != confirmPassword)
+        $("#divCheckPasswordMatch").html("Passwords do not match!");
+    else
+        $("#divCheckPasswordMatch").html("Passwords match.");
+}
+
+$(document).ready(function () {
+   $("#txtConfirmPassword").keyup(checkPasswordMatch);
+});</script>
+</body>
+	 </html>
+	 
+	 http://jsfiddle.net/rpP4K/

@@ -1,0 +1,91 @@
+body {
+	margin:0px;
+	font-family:PT Serif;
+    color:#f2e8e5;
+	
+	}
+
+
+h2{
+padding-left:80px;	
+}
+
+label{
+display:block;
+padding-left:110px;	
+padding-top:6px;	
+font-size:16px;
+}
+button{
+	margin-left:225px;
+	margin-top:12px;
+	margin-bottom:6px;
+	padding:10px 25px 10px 25px;
+	text-align:center;
+	outline:none;
+	border:3px solid #8f5949;
+	border-radius:25px;
+	background:none;
+		font-family:PT Serif;
+    color:#f2e8e5;
+		transition: all .3s ease-in-out;
+}
+
+button:hover{
+	background:rgba(143,89,73,0.7);
+	transform: scale(1.1);
+    color:white;
+	}
+.left {
+	float:left;
+	width:50%;
+	height:112%;
+}
+.img{ 
+display:block;
+background-image:url('../images/login.jpg');
+	background-size: cover;
+background-position:center;
+background-repeat:no-repeat;
+height:100%;
+
+}
+.right{
+	background-color:#bd8c7d;
+;
+	float:right;
+	width:50%;
+	height:112%;
+}
+.box{
+	margin:25px;
+	border: 3px dotted #8f5949;
+}
+input[type='text']
+{
+	margin-left:110px;	
+	outline:none;
+	border:none;
+	background:none;
+	border-bottom: 3px solid #8f5949;
+    padding:10px;
+	color:#8f5949;
+	font-family:PT Serif;
+	width:60%;
+}
+input[type='text']:hover{
+	border-bottom: 3px solid #684135;
+}
+select{
+	margin-left:110px;
+    outline:none;
+	border:none;
+	background:rgba(143,89,73,0.3);
+    padding:10px;	
+	color:#8f5949;
+	font-family:PT Serif;
+     width:60%;
+	}
+select:hover{
+	background:rgba(143,89,73,0.5);
+}
